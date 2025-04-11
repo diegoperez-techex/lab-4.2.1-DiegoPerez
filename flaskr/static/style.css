@@ -2,14 +2,14 @@
 
 html {
     margin: 25px;
-    background-color: lightblue;
+    background-color: #f0f4f8;
     font-family: verdana;
     font-size: 20px;
 }
 
 h3 {
     margin-top: 20px;
-    background-color: lightblue;
+    background-color: #f0f4f8;
     font-size: 30px;
     font-weight: bolder;
 }
@@ -17,5 +17,52 @@ h3 {
 p {
     margin-top: 10px;
     margin-left: 15px;
-    background-color: lightblue;
+    background-color:#f0f4f8;
+}
+
+
+div {
+    max-width: 800px;           /* Keep content from being too wide */
+    margin: 10px auto;          /* Center horizontally */
+    margin-top: 10px;
+    padding: 20px;  
+}
+
+div p { /* Set the text to the center */
+    text-align: center;
+}
+
+
+nav {
+    max-width: 800px;
+    margin: 10px auto;          /* Center horizontally */
+    margin-top: 10px;
+    background-color: #333;         /* Dark background */
+    padding: 12px 20px;        
+    text-align: center;             
+    border-radius: 6px;           
+}
+
+
+nav a {
+    color: #fff;                    /* White text */
+    margin: 0 15px;                 /* Space between links */
+    text-decoration: none;         /* Remove underline */
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: #00d1f1;                 /* A more vibrant blue hover effect */
+    text-decoration: underline;
+}
+
+.content { /* Change the content to be more structured */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    
 }
